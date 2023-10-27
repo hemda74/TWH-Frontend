@@ -1,6 +1,6 @@
 import transScript from "./transScript";
 import indexTrans from "../localization/index.trans";
-
+import { useState } from 'react';
 // changing language function used when localization button is clicked.
 const changeLang = () => {
   let lang: string | null = localStorage.getItem('lang');
